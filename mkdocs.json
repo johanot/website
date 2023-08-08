@@ -1,0 +1,11 @@
+{
+  "site_name": "utc",
+  "theme": {
+    "highlightjs": true,
+    "hljs_languages": [
+      "yaml",
+      "rust"
+    ],
+    "name": "material"
+  }
+}

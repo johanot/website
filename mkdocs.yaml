@@ -1,7 +1,0 @@
-site_name: utc
-theme:
-  name: material
-  highlightjs: true
-  hljs_languages:
-    - yaml
-    - rust
