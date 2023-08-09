@@ -6,6 +6,19 @@
       "yaml",
       "rust"
     ],
-    "name": "material"
+    "name": "material",
+    "features": [
+      "navigation.sections"
+    ],
+    "plugins": [
+      "meta",
+      {
+        "blog": {
+          "blog_dir": "."
+        }
+      },
+      "search",
+      "tags"
+    ]
   }
 }
