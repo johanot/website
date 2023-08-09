@@ -1,2 +1,4 @@
-/site
+.hugo_build.lock
+_gen
+public
 result*
