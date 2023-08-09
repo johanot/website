@@ -2,7 +2,7 @@
 title: "My First Post"
 date: 2023-08-09T15:32:29+02:00
 featured_image: '/images/gohugo-default-sample-hero-image.jpg'
-draft: true
+draft: false
 ---
 
 ## Introduction
