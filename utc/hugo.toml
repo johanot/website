@@ -1,1 +1,9 @@
 theme = 'ananke'
+title = 'utc.dk'
+[params]
+  AuthorName = 'Johan Thomsen'
+  GitHubUser = 'johanot'
+  SidebarRecentLimit = 5
+  Subtitle = 'Hugo is Absurdly Fast!'
+[permalinks]
+  posts = '/:year/:month/:title/'
