@@ -2,7 +2,7 @@
 title: "This site"
 date: 2023-08-09T15:32:29+02:00
 featured_image: '/images/hugo-logo-wide.svg'
-draft: false
+draft: true
 ---
 
 ## Introduction
