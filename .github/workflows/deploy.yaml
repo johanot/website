@@ -1,0 +1,17 @@
+name: Deploy website
+
+on:
+  push:
+    branches:
+      - draft # will be changed later
+
+jobs:
+  invoke-webhook:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Invoke Webhook
+      env:
+        WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
+      run: |
+        curl -X POST -H "Content-Type: application/json" -d '{"event": "push", "ref": "${{ github.ref }}", "sha": "${{ github.sha }}"}' $WEBHOOK_URL
